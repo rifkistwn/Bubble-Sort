@@ -1,6 +1,19 @@
 #include <iostream>
 using namespace std;
 
+void SelectionSort (int data[], int n){
+    int tmp;
+    for (int i=0;i<n-1;i++){
+	for (int j=i+1;j<n;j++){
+		if (data[i] > data[j]){
+			y = data[i];
+			data[i] = data[j];
+			data[j] = y;
+		}
+	}
+    }
+}
+
 main(){
 	int i;
 	int j;
