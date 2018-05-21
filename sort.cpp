@@ -42,5 +42,13 @@ main(){
 	display(data,5);
 	cout << endl;
 	
+	int data[]={77, 42, 35, 12, 101, 5};
+	cout<<"Data : ";
+	display(data,6);
+	cout<<endl;
+	BubbleSort(data,6);
+	cout<<"Bubble Sort : ";
+	display(data,6);
+	cout<<endl;
 
 }
