@@ -1,8 +1,14 @@
+/*
+M. Rifki Setiawan - 1717051004
+M. Rama Wicaksono - 1717051062
+Yosua Sandi S	  - 1717051064
+Lofanny Wahyu D   - 1757051010
+*/
 #include <iostream>
 using namespace std;
 
 void SelectionSort (int data[], int n){
-    int tmp;
+    int y;
     for (int i=0;i<n-1;i++){
 	for (int j=i+1;j<n;j++){
 		if (data[i] > data[j]){
@@ -33,22 +39,25 @@ void display(int data[],int n){
 }
 
 main(){
-	int data [] = { 20, 8, 5, 10, 7};
+	//SelectionSort
+	/*int data [] = { 20, 8, 5, 10, 7};
 	cout<<"Data : ";
 	display(data,5);
 	cout << endl;
 	SelectionSort(data,5);
 	cout<<"Selection Sort : ";
 	display(data,5);
-	cout << endl;
+	cout << endl;*/
 	
-	int data[]={77, 42, 35, 12, 101, 5};
+	//BubbleSort
+	/*int data[]={77, 42, 35, 12, 101, 5};
 	cout<<"Data : ";
 	display(data,6);
 	cout<<endl;
 	BubbleSort(data,6);
 	cout<<"Bubble Sort : ";
 	display(data,6);
-	cout<<endl;
+	cout<<endl;*/
 
+	return 0;
 }
