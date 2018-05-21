@@ -14,7 +14,21 @@ void SelectionSort (int data[], int n){
     }
 }
 
+void display(int data[],int n){
+    for( int i=0;i<n;i++)
+    cout << data[i] << " ";
+}
+
 main(){
+	int data [] = { 20, 8, 5, 10, 7};
+	cout<<"Data : ";
+	display(data,5);
+	cout << endl;
+	SelectionSort(data,5);
+	cout<<"Selection Sort : ";
+	display(data,5);
+	cout << endl;
+	
 	int i;
 	int j;
 	int n;
